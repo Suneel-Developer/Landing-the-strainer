@@ -28,7 +28,7 @@ const Marketplace = () => {
           </p>
         </div>
 
-        <div className="flex-1 relative justify-center lg:px-16" data-aos="fade-left">
+        <div className="flex-1 relative justify-center lg:px-16" data-aos="zoom-in">
           <div className="w-5/6 mx-auto lg:w-full h-full bg-cover">
             <img
               src={FrontMarketplace}

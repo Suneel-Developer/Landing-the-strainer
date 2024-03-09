@@ -20,7 +20,7 @@ const Experience = () => {
         </p>
 
         <div className="flex justify-center lg:justify-between flex-col lg:flex-row mt-14">
-          <div className="flex-1 relative justify-center lg:px-16" data-aos="fade-right">
+          <div className="flex-1 relative justify-center lg:px-16" data-aos="zoom-in">
             <div className="w-5/6 mx-auto lg:w-full h-full bg-cover">
               <img
                 src={FrontMarketplace}
@@ -78,7 +78,7 @@ const Experience = () => {
             </div>
           </div>
 
-          <div className="flex justify-center flex-col lg:w-[40%]" data-aos="fade-left">
+          <div className="flex justify-center flex-col lg:w-[40%]" data-aos="fade-up">
             <p className="text-sm md:text-2xl lg:text-start leading-[1.460534em] text-white">
               Tus asistentes personales, diseñados para ofrecer apoyo en tareas,
               asistencia inmediata y consejo experto, convirtiendo cada

@@ -14,10 +14,8 @@ const Hero = () => {
       <div className="flex justify-center items-center lg:items-start lg:justify-between flex-col lg:flex-row gap-10 lg:gap-5">
         <div
           className="w-full sm:w-4/6 lg:w-5/12 flex flex-col gap-10 justify-center items-start"
-          data-aos="fade-right"
-          data-aos-offset="300"
-          data-aos-easing="ease-in-sine"
-          data-aos-duration="500"
+          
+          data-aos="zoom-in"
         >
           <span className="text-blue-100 leading-[0.98813991em] text-5xl md:text-[73px]">
             Recruitment <br /> made easy
@@ -32,10 +30,7 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="w-full sm:w-4/6 lg:w-5/12" data-aos="fade-left"
-          data-aos-offset="300"
-          data-aos-easing="ease-in-sine"
-          data-aos-duration="500">
+        <div className="w-full sm:w-4/6 lg:w-5/12" data-aos="fade-up" data-aos-duration="300">
           <form className="flex flex-col gap-5">
             <div className="flex flex-col gap-1">
               <label

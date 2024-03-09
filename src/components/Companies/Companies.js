@@ -36,7 +36,7 @@ const Companies = () => {
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-32 mt-14">
-        <div data-aos="fade-right">
+        <div data-aos="fade-up">
           <p className="text-xl">Confían en nosotros:</p>
           <div className="flex items-center justify-center lg:justify-between flex-wrap gap-6 mt-5">
             <img
@@ -114,7 +114,7 @@ const Companies = () => {
           </div>
         </div>
 
-        <div data-aos="fade-left">
+        <div data-aos="fade-up">
           <div>
             <p className="text-xl">Somos parte de:</p>
             <div className="flex justify-center lg:justify-between items-center gap-6 flex-wrap mt-5">

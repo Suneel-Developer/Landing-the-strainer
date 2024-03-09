@@ -15,13 +15,13 @@ const Partner = () => {
   return (
     <div className="w-full max-w-7xl mx-auto px-3 py-20 md:my-10">
       <div className="flex gap-14 justify-center lg:gap-40 flex-col lg:flex-row">
-        <div className="text-4xl md:text-[57px] flex-1 lg:max-w-[310px] text-center leading-[1.2em] px-5" data-aos="fade-right">
+        <div className="text-4xl md:text-[57px] flex-1 lg:max-w-[310px] text-center leading-[1.2em] px-5" data-aos="fade-up" data-aos-duration="300">
           Conviértete en <span className="text-blue-100">Early Partner</span> y
           obtén increíbles beneficios
           <span className="text-yellow-100">.</span>
         </div>
 
-        <div className="flex flex-col gap-7 md:gap-10" data-aos="fade-left">
+        <div className="flex flex-col gap-7 md:gap-10" data-aos="fade-up" data-aos-duration="300">
           <div className="flex items-center gap-4 md:gap-14">
             <div className="w-[90px] md:w-[103px] h-16 flex justify-center">
               <img
