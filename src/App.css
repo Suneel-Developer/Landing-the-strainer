@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+@font-face {
+  font-family: YAFdJl3zAt0-0;
+  src: url(fonts/d0d337bf7b57fdad970f327eb5b46baa.woff2);
+}
+
+@font-face {
+  font-family: YAFcf0f10mQ-0;
+  src: url(fonts/d31bc34ae2ef556a412a3d56101dceb4.woff2);
+}
+
+@font-face {
+  font-family: YAFcf0f10mQ-1;
+  src: url(fonts/6f4e4610e12913c975f8d5c37df9577e.woff2);
+}
+
+body {
+  font-family: YAFcf0f10mQ-0;
+}
+
+
+h2 {
+  font-family: YAFdJl3zAt0-0;
+}
+
+span {
+  font-family: YAFcf0f10mQ-1;
+  font-weight: 700;
+}
+.group{
+  transition: background-color 0.2s;
+}
+.group:hover {
+  background: linear-gradient(90deg, #00C4CC 0%, #7D2AE8 100%);
+  transition: opacity 0.2s;
+}
