@@ -172,7 +172,7 @@ const Hero = () => {
                       <FaSortDown className="absolute top-[10px] right-3 text-xl md:text-2xl" />
                     </div>
                     {isTeleOpen && (
-                      <ul className="bg-white z-30 rounded-xl p-3 text-[15px] md:text-lg flex flex-col gap-2 absolute top-14 w-full">
+                      <ul className="bg-white z-50 rounded-xl p-3 text-[15px] md:text-lg flex flex-col gap-2 absolute top-14 w-full">
                         {coutryCode.map((coutryCode) => (
                           <li
                             key={coutryCode}

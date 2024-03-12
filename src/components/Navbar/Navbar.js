@@ -23,7 +23,7 @@ const Navbar = () => {
           loading="lazy"
           className="w-[92px] sm:w-[99px] h-[52px] sm:h-[56px]"
         />
-        <h2 className="text-2xl xs:text-3xl sm:text-[39px] font-extrabold text-black uppercase tracking-[0.09em]">
+        <h2 className="text-[27px] xs:text-3xl sm:text-[39px] font-extrabold text-black uppercase tracking-[0.09em]">
           THESTRAINER.CO
         </h2>
       </div>

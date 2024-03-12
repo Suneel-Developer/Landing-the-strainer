@@ -19,7 +19,7 @@ const Subscribe = () => {
           data-aos="fade-right"
         >
           <img src={Logo} alt="thestrainer" />
-          <p className="text-white text-2xl sm:text-[32.8px] text-center">
+          <p className="text-white text-lg sm:text-[32.8px] text-center">
             Únete a nuestra red de partners
           </p>
         </div>

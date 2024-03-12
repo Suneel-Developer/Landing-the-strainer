@@ -30,7 +30,7 @@ const Contact = () => {
           spy={true}
           smooth={true}
           duration={500}
-          className="bg-white text-blue-100 w-[70px] sm:w-[190px] h-4 sm:h-[47px] rounded-[50px] text-[8px] sm:text-[18px] flex justify-center items-center cursor-pointer"
+          className="bg-white text-blue-100 w-[70px] sm:w-[190px] mt-[0.4rem] h-4 sm:h-[47px] rounded-[50px] text-[8px] sm:text-[18px] flex justify-center items-center cursor-pointer"
           data-aos="fade-left"
         >
           Contáctanos

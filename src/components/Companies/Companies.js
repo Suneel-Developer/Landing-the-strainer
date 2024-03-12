@@ -159,7 +159,7 @@ const Companies = () => {
               <img
                 src={SmartUp}
                 alt="SmartUp"
-                className="h-6 sm:h-12 mt-5"
+                className="h-8 sm:h-12 mt-7 sm:ml-[30px] ml-[70px]"
                 loading="lazy"
               />
             </div>
