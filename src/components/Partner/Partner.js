@@ -98,7 +98,8 @@ const Partner = () => {
         smooth={true}
         duration={500}
         data-aos="fade-up"
-        className="bg-blue-100 rounded-[100px] flex justify-between items-center gap-2 px-3 md:px-4 pl-7 md:pl-12 text-white text-[24px] md:text-[33px] md:w-auto w-full md:max-w-[422px] h-[60px] md:h-20 cursor-pointer mx-auto mt-10 md:mt-20"
+        style={{transition: ".5s"}}
+        className="bg-blue-100 hover:bg-blue-700 transition duration-1000 rounded-[100px] flex justify-between items-center gap-2 px-3 md:px-4 pl-7 md:pl-12 text-white text-[24px] md:text-[33px] md:w-auto w-full md:max-w-[422px] h-[60px] md:h-20 cursor-pointer mx-auto mt-10 md:mt-20"
       >
         Quiero ser partner
         <div className="w-9 md:w-12 h-9 md:h-12 rounded-full flex justify-center items-center text-center bg-yellow-100 text-blue-100">

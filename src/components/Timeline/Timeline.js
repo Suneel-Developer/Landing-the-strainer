@@ -19,7 +19,7 @@ const Timeline = () => {
   }, []);
 
   return (
-    <section className="relative w-full md:w-[90%] mx-auto mb-20">
+    <section className="relative w-full mx-auto mb-20">
       <div className="text-center w-full max-w-6xl mx-auto px-3 py-5 md:py-10">
         <div
           className="text-xl md:text-[42px] leading-[1em] mb-14"
@@ -133,7 +133,8 @@ const Timeline = () => {
           smooth={true}
           duration={500}
           data-aos="fade-up"
-          className="bg-blue-100 rounded-[100px] flex justify-between items-center gap-2 px-3 md:px-4 pl-7 md:pl-12 text-white text-[24px] md:text-[33px] md:w-auto w-full md:max-w-[422px] h-[60px] md:h-20 cursor-pointer mx-auto mt-10 md:mt-20"
+          style={{transition: ".5s"}}
+          className="bg-blue-100 hover:bg-blue-700 transition duration-1000 rounded-[100px] flex justify-between items-center gap-2 px-3 md:px-4 pl-7 md:pl-12 text-white text-[24px] md:text-[33px] md:w-auto w-full md:max-w-[422px] h-[60px] md:h-20 cursor-pointer mx-auto mt-10 md:mt-20"
         >
           Quiero saber más
           <div className="w-9 md:w-12 h-9 md:h-12 rounded-full flex justify-center items-center text-center bg-yellow-100 text-blue-100">
@@ -145,7 +146,7 @@ const Timeline = () => {
       <img
         src={BlueCorner}
         alt="BlueCorner"
-        className="absolute right-0 bottom-0 hidden md:block"
+        className="absolute right-0 bottom-0 hidden lg:block"
       />
     </section>
   );

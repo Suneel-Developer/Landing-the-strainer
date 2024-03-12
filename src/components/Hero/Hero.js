@@ -12,69 +12,6 @@ const Hero = () => {
     Aos.init();
   }, []);
 
-  // const [isOpen, setIsOpen] = useState(false);
-  // const [isTeleOpen, setTeleIsOpen] = useState(false);
-  // const [selectedOption, setSelectedOption] = useState("");
-  // const [selectedTeleOption, setSelectedTeleOption] = useState("");
-
-  // const [isCountryOpen, setIsCountryOpen] = useState("");
-  // const [selectedCountryOption, setSelectedCountryOption] = useState("");
-
-  // const dropdownRef = useRef(null);
-  // const codeRef = useRef(null);
-  // const countryRef = useRef(null);
-
-  // const options = [
-  //   "Reclutador independiente",
-  //   "Empresa de reclutamiento",
-  //   "Reclutador interno de empresa",
-  // ];
-
-  // const handleDropdownClick = () => {
-  //   setIsOpen(!isOpen);
-  // };
-
-  // const handleOptionClick = (option) => {
-  //   setSelectedOption(option);
-  //   setIsOpen(false);
-  // };
-
-  // // Coutry Code Dropdown
-  // const coutryCode = ["+54", "+56", "+57", "+52", "+51", "+598", "+1", "+43"];
-
-  // const handleCodeDropdownClick = () => {
-  //   setTeleIsOpen(!isOpen);
-  // };
-
-  // const handleCodeOptionClick = (option) => {
-  //   setSelectedTeleOption(option);
-  //   setTeleIsOpen(false);
-  // };
-
-  // // Coutry Dropdown
-  // const coutry = ["+92", "+101", "+463"];
-
-  // const handleCountryDropdownClick = () => {
-  //   setIsCountryOpen(!isOpen);
-  // };
-
-  // const handleCountryOptionClick = (option) => {
-  //   setSelectedCountryOption(option);
-  //   setIsCountryOpen(false);
-  // };
-
-  // const handleClickOutside = (event) => {
-  //   if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
-  //     setIsOpen(false);
-  //   }
-  // };
-
-  // useEffect(() => {
-  //   document.addEventListener("mousedown", handleClickOutside);
-  //   return () => {
-  //     document.removeEventListener("mousedown", handleClickOutside);
-  //   };
-  // }, []);
 
   const [selectedCoutryCode, setSelectedCoutryCode] = useState("");
   const [isCountryCodeOpen, setIsCountryCodeOpen] = useState(false);
@@ -188,7 +125,7 @@ const Hero = () => {
 
         {/* Form  */}
         <div
-          className="w-full sm:w-4/6 lg:w-1/2 bg-[#d9d9d9] rounded-2xl p-3"
+          className="w-full sm:w-4/6 lg:w-1/2 bg-[#d9d9d9] bg-opacity-50 rounded-2xl p-3"
           data-aos="fade-up"
           data-aos-duration="300"
         >
@@ -357,14 +294,14 @@ const Hero = () => {
               </div>
             </div>
 
-            <button className="bg-yellow-100 font-bold text-lg text-center h-12 tracking-[.2em] mt-3 w-full rounded-xl text-white uppercase">
-              Submit
+            <button className="bg-yellow-100 hover:bg-yellow-500 transition duration-500 font-bold text-lg text-center h-12 tracking-[.2em] mt-3 w-full rounded-xl text-white uppercase">
+              Enviar
             </button>
           </form>
 
           <div className="bg-blue-100 rounded-xl text-base md:text-[25px] leading-[1.37085934em] text-center text-white px-10 md:px-20 py-3 md:py-5 mt-5 w-fit lg:w-full mx-auto">
             Conviértete en
-            <strong className="text-yellow-100 font-normal">
+            <strong className="text-yellow-100 font-normal mx-1">
               Early Partner
             </strong>
             y obtén increíbles beneficios
@@ -372,14 +309,14 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="flex flex-col lg:flex-row justify-between gap-3 border-y border-y-yellow-100 py-5 mt-10">
-        <span className="text-[31px] font-extrabold text-blue-100">
+      <div className="flex flex-col lg:flex-row justify-between gap-2 border-y border-y-yellow-100 py-5 mt-10 max-w-[1190px] w-full mx-auto">
+        <span className="text-[30px] md:text-[32px] xxl:text-[35px] font-extrabold text-blue-100">
           ATS fácil de usar<span className="text-yellow-100">.</span>
         </span>
-        <span className="text-[23px] md:text-[31px] font-extrabold text-blue-100">
+        <span className="text-[23px] md:text-[32px] xxl:text-[35px] font-extrabold text-blue-100">
           Agentes IA especializados<span className="text-yellow-100">.</span>
         </span>
-        <span className="text-[23px] md:text-[31px] font-extrabold text-blue-100">
+        <span className="text-[23px] md:text-[32px] xxl:text-[35px] font-extrabold text-blue-100">
           Oportunidades de negocio<span className="text-yellow-100">.</span>
         </span>
       </div>

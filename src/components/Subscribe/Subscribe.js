@@ -28,10 +28,11 @@ const Subscribe = () => {
           spy={true}
           smooth={true}
           duration={500}
-          className="bg-white text-blue-100 cursor-pointer w-40 sm:w-[190px] h-10 sm:h-[47px] rounded-[50px] text-lg sm:text-[21px flex justify-center items-center"
+          style={{transition: ".5s"}}
+          className="bg-white hover:bg-yellow-100 transition duration-1000 hover:text-white text-blue-100 cursor-pointer w-40 sm:w-[190px] h-10 sm:h-[47px] rounded-[50px] text-lg sm:text-[21px flex justify-center items-center"
           data-aos="zoom-in"
         >
-          Suscribete
+          <span>Suscribete</span>
         </ScrollLink>
       </div>
     </section>

@@ -28,62 +28,13 @@ const Marketplace = () => {
           </p>
         </div>
 
-        <div className="relative flex-1" data-aos="zoom-in">
+        <div className="flex-1" data-aos="zoom-in">
           <div className="h-auto lg:h-[400px] bg-cover w-full">
             <img
               src={FrontMarketplace}
               alt="FrontMarketplace"
               className="w-full h-full mt-5 lg:mt-0"
             />
-
-            <div className="w-20 md:w-40 h-2 md:h-[14px] hidden lg:block absolute top-48 left-6">
-              <svg
-                id="XhSsc6j0ApUtsuxb"
-                viewBox="0 0 178.0124179713805 16.000000000000057"
-                preserveAspectRatio="none"
-                style={{
-                  display: "block",
-                  width: "100%",
-                  height: "100%",
-                  overflow: "visible",
-                  opacity: "1.0",
-                  minHeight: "1px",
-                  stroke: "#5271ff",
-                  fill: "#5271ff",
-                }}
-              >
-                <g id="YTob4XudFEG04PHt">
-                  <path
-                    d="M163.01241797,8 L2,8"
-                    style={{
-                      fill: "None",
-                      strokeWidth: "4px",
-                      strokeLinecap: "butt",
-                    }}
-                  ></path>
-                  <path
-                    id="L2BfKaBAjp7ijW5Q"
-                    d="M176.01241797,8 C176.01241797,4.6862915 173.32612647,2 170.01241797,2 C166.69870947,2 164.01241797,4.6862915 164.01241797,8 C164.01241797,11.3137085 166.69870947,14 170.01241797,14 C173.32612647,14 176.01241797,11.3137085 176.01241797,8"
-                    style={{
-                      strokeLinejoin: "round",
-                      strokeLinecap: "round",
-                      strokeWidth: "4px",
-                      fill: "none",
-                    }}
-                  ></path>
-                  <path
-                    id="RBxOaZFbUQiX6604"
-                    d="M10,14 L2,8 L10,2"
-                    style={{
-                      strokeLinejoin: "round",
-                      strokeLinecap: "round",
-                      strokeWidth: "4px",
-                      fill: "none",
-                    }}
-                  ></path>
-                </g>
-              </svg>
-            </div>
           </div>
         </div>
       </div>

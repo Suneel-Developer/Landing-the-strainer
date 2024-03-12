@@ -13,12 +13,12 @@ const Experience = () => {
     Aos.init();
   }, []);
   return (
-    <section className="w-full bg-blue-100 px-3 py-10 md:py-14">
-      <div className="w-full max-w-[1600px] mx-auto relative">
+    <section className="w-full bg-blue-100 px-3 py-10 md:py-14 relative">
+      <div className="w-full max-w-[1600px] mx-auto ">
         <img
           src={Corner}
           alt="corner"
-          className="absolute left-0 -top-5 hidden lg:block"
+          className="absolute left-0 top-10 hidden lg:block"
         />
         <div className="w-full max-w-[1400px] mx-auto">
           <p
@@ -31,61 +31,13 @@ const Experience = () => {
           </p>
 
           <div className="flex justify-center lg:justify-between flex-col gap-5 md:mb-5 lg:flex-row mt-10 md:mt-20">
-            <div className="flex-1 relative justify-center" data-aos="zoom-in">
+            <div className="flex-1 justify-center" data-aos="zoom-in">
               <div className="h-auto lg:h-[440px] bg-cover">
                 <img
                   src={FrontMarketplace}
                   alt="FrontMarketplace"
                   className="w-full h-full mb-5 lg:mb-0"
                 />
-              </div>
-              <div className="w-[105px] h-[13px] absolute top-28 hidden lg:block lg:right-[30px]">
-                <svg
-                  id="KENx0yueIJnFLivt"
-                  viewBox="0 0 123.3457513047141 16.0"
-                  preserveAspectRatio="none"
-                  style={{
-                    display: "block",
-                    width: "100%",
-                    height: "100%",
-                    overflow: "visible",
-                    opacity: "1.0",
-                    minHeight: "1px",
-                    stroke: "#f4cd59",
-                    fill: "#f4cd59",
-                  }}
-                >
-                  <g id="tw8DxwfuGwYEw6Dn">
-                    <path
-                      d="M15,8 L121.3457513,8"
-                      style={{
-                        fill: "None",
-                        strokeWidth: "4px",
-                        strokeLinecap: "butt",
-                      }}
-                    ></path>
-                    <path
-                      id="ia1nxI04juoQdjeX"
-                      d="M2,8 C2,11.3137085 4.6862915,14 8,14 C11.3137085,14 14,11.3137085 14,8 C14,4.6862915 11.3137085,2 8,2 C4.6862915,2 2,4.6862915 2,8"
-                      style={{
-                        strokeLinejoin: "round",
-                        strokeLinecap: "round",
-                        strokeWidth: "4px",
-                        fill: "none",
-                      }}
-                    ></path>
-                    <path
-                      id="YsQy1KMsNerjefwP"
-                      d="M113.3457513,2 L121.3457513,8 L113.3457513,14"
-                      style={{
-                        strokeLinejoin: "round",
-                        strokeLinecap: "round",
-                        strokeWidth: "4px",
-                        fill: "none",
-                      }}
-                    ></path>
-                  </g>
-                </svg>
               </div>
             </div>
 
@@ -105,7 +57,7 @@ const Experience = () => {
                 spy={true}
                 smooth={true}
                 duration={500}
-                className="bg-yellow-100 rounded-[100px] flex justify-between items-center gap-2 px-3 md:px-4 md:pl-10 text-white text-lg md:text-[25px] w-full xs:w-[315px] h-12 md:h-[63px] cursor-pointer mt-10"
+                className="bg-yellow-100 rounded-[100px] flex justify-between items-center gap-2 px-3 md:px-4 md:pl-10 text-white text-lg md:text-[25px] w-full xs:w-[315px] hover:bg-yellow-500 transition duration-500 h-12 md:h-[63px] cursor-pointer mt-10"
               >
                 <span>Quiero probarlo</span>
                 <div className="w-9 md:w-10 h-9 md:h-10 rounded-full flex justify-center items-center text-center bg-white text-yellow-100">
