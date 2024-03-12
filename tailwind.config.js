@@ -21,7 +21,7 @@ module.exports = {
         "modalshadow": "0px 2px 18px 0px rgba(14, 19, 24, 0.25), 0px 0px 1px 0px rgba(14, 19, 24, 0.02)"
       },
       screens: {
-        "xs": "340px"
+        "xs": "340px",
       }
     },
   },

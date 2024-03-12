@@ -16,7 +16,7 @@ const Contact = () => {
       <div className="w-full max-w-5xl mx-auto flex justify-between md:items-center gap-10 md:gap-3">
         <div
           className="flex justify-center flex-col gap-0"
-          data-aos="fade-right"
+          data-aos="zoom-in"
         >
           <h2 className="text-white sm:text-[39px] text-[9px] break-words">
             THESTRAINER.CO
@@ -31,7 +31,7 @@ const Contact = () => {
           smooth={true}
           duration={500}
           className="bg-white text-blue-100 w-[70px] sm:w-[190px] mt-[0.4rem] h-4 sm:h-[47px] rounded-[50px] text-[8px] sm:text-[18px] flex justify-center items-center cursor-pointer"
-          data-aos="fade-left"
+          data-aos="zoom-in"
         >
           Contáctanos
         </ScrollLink>
