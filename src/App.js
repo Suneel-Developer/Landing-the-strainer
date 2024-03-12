@@ -15,13 +15,13 @@ function App() {
     <>
       <Navbar />
       <Hero />
-      <Experience />
+      {/* <Experience /> */}
       <Timeline />
-      <Marketplace />
+      {/* <Marketplace /> */}
       <Companies />
       <Subscribe />
-      <Partner />
-      <Contact />
+      {/* <Partner /> */}
+      {/* <Contact /> */}
       <Footer />
     </>
   );

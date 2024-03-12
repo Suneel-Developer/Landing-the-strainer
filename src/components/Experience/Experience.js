@@ -12,8 +12,8 @@ const Experience = () => {
   }, []);
   return (
     <section className="w-full bg-blue-100 px-3 py-14 md:my-10">
-      <div className="w-full max-w-7xl mx-auto">
-        <p className="text-base md:text-[39px] text-white text-end md:text-center leading-[1.2em]" data-aos="zoom-in">
+      <div className="w-full max-w-6xl mx-auto">
+        <p className="text-[20.52px] md:text-[42.26px] text-white text-end md:text-center leading-[1.2em]" data-aos="zoom-in">
           Vive una genuina experiencia de inteligencia artificial con un equipo
           de agentes especializados en reclutamiento
           <span className="text-yellow-100">.</span>
@@ -79,14 +79,14 @@ const Experience = () => {
           </div>
 
           <div className="flex justify-center flex-col lg:w-[40%]" data-aos="fade-up">
-            <p className="text-sm md:text-2xl lg:text-start leading-[1.460534em] text-white">
+            <p className="text-[23px] md:text-2xl lg:text-start leading-[1.460534em] text-white">
               Tus asistentes personales, diseñados para ofrecer apoyo en tareas,
               asistencia inmediata y consejo experto, convirtiendo cada
               interacción no solo en una transacción, sino en una experiencia
               informativa y útil.
             </p>
             {/* Btn  */}
-            <div className="bg-yellow-100 rounded-[100px] flex justify-between items-center gap-2 px-3 md:px-4 md:pl-6 text-white text-lg md:text-2xl md:w-auto w-[250px] md:max-w-[310px] h-12 md:h-14 cursor-pointer mt-10">
+            <div className="bg-yellow-100 rounded-[100px] flex justify-between items-center gap-2 px-3 md:px-4 md:pl-10 text-white text-lg md:text-[24px] w-[299px] h-12 md:h-[60px] cursor-pointer mt-10">
               <span>Quiero probarlo</span>
               <div className="w-9 md:w-10 h-9 md:h-10 rounded-full flex justify-center items-center text-center bg-white text-yellow-100">
                 <FaChevronRight className="text-lg md:text-2xl" />

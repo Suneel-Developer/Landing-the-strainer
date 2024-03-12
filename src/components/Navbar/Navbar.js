@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import Logo from "../../assets/logo.png";
+import Logo from "../../assets/logo.jpg";
 
 // AOS Animation
 import Aos from "aos";
@@ -21,13 +21,13 @@ const Navbar = () => {
           src={Logo}
           alt="Thestrainer"
           loading="lazy"
-          className="w-24 sm:w-[110px]"
+          className="w-[92px] sm:w-[99px] h-[52px] sm:h-[56px]"
         />
-        <h2 className="text-2xl xs:text-3xl sm:text-[40px] font-extrabold text-black uppercase tracking-[0.09em]">
+        <h2 className="text-2xl xs:text-3xl sm:text-[39px] font-extrabold text-black uppercase tracking-[0.09em]">
           THESTRAINER.CO
         </h2>
       </div>
-      <p className="text-base sm:text-[29px] font-light mt-4 sm:mt-6 text-center">
+      <p className="text-base sm:text-[30.23px] font-light mt-4 sm:mt-6 text-center">
         La plataforma
         <span className="text-blue-100"> all-in-one</span> para reclutadores
         basada en

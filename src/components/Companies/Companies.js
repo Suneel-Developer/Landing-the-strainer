@@ -28,7 +28,7 @@ const Companies = () => {
   }, []);
   return (
     <div className="w-full max-w-7xl mx-auto px-3 py-14">
-      <div className="text-xl md:text-[37px] text-center tracking-[-0.02em] max-w-[960px] mx-auto" data-aos="zoom-in">
+      <div className="text-base md:text-[42.2px] text-center tracking-[-0.02em] leading-[0.97727273em] max-w-[1080px] mx-auto" data-aos="zoom-in">
         Hazte <span className="text-blue-100"> partner</span> y se parte de una
         <span className="text-blue-100"> comunidad </span> internacional de
         reclutadores
@@ -72,7 +72,7 @@ const Companies = () => {
             <img
               src={Adwise}
               alt="Adwise"
-              className="w-40 sm:w-64"
+              className="w-40"
               loading="lazy"
             />
             <img
