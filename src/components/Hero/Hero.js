@@ -12,7 +12,6 @@ const Hero = () => {
     Aos.init();
   }, []);
 
-
   const [selectedCoutryCode, setSelectedCoutryCode] = useState("");
   const [isCountryCodeOpen, setIsCountryCodeOpen] = useState(false);
 
@@ -25,7 +24,6 @@ const Hero = () => {
   const countryCodeRef = useRef(null);
   const countryRef = useRef(null);
   const soyRef = useRef(null);
-
 
   const closeDropdowns = () => {
     setSelectedCoutryCode(false);
@@ -130,11 +128,13 @@ const Hero = () => {
           data-aos-duration="300"
         >
           <form className="flex flex-col gap-3">
+            <div className="bg-blue-100 rounded-lg text-base leading-[1.37085934em] text-center text-white px-10 py-3">
+              Formulario enviado, pronto nos pondremos en contacto contigo
+            </div>
             <p className="text-[14px] md:text-[27px] mb-2 tracking-[-0.02em] leading-[0.97172961em] text-center">
               ¡Déjanos tus datos y nos contactaremos contigo para contarte más
               🤩!
             </p>
-
             <div className="flex flex-col md:flex-row gap-2">
               <div className="flex flex-col flex-1">
                 <label
@@ -166,7 +166,6 @@ const Hero = () => {
                 />
               </div>
             </div>
-
             <div className="flex flex-col">
               <label
                 htmlFor="Email"
@@ -181,7 +180,6 @@ const Hero = () => {
                 required
               />
             </div>
-
             <div className="flex gap-2 flex-col md:flex-row">
               {/* Télefono  */}
               <div className="flex-1">
@@ -222,7 +220,7 @@ const Hero = () => {
                     )}
                   </div>
                   <input
-                    type="text"
+                    type="number"
                     className="bg-white h-[49px] outline-none rounded-2xl text-[15px] md:text-base p-3 flex-1"
                   />
                 </div>
@@ -261,7 +259,6 @@ const Hero = () => {
                 </div>
               </div>
             </div>
-
             <div className="flex flex-col">
               <label
                 htmlFor="Teléfono"
@@ -293,7 +290,6 @@ const Hero = () => {
                 )}
               </div>
             </div>
-
             <button className="bg-yellow-100 hover:bg-yellow-500 transition duration-500 font-bold text-lg text-center h-12 tracking-[.2em] mt-3 w-full rounded-xl text-white uppercase">
               Enviar
             </button>

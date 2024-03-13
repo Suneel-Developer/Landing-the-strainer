@@ -18,9 +18,10 @@ const Experience = () => {
         <img
           src={Corner}
           alt="corner"
-          className="absolute left-0 top-10 hidden lg:block"
+          className="absolute -left-5 top-10 hidden lg:block w-[120px] h-[20%]"
         />
         <div className="w-full max-w-[1400px] mx-auto">
+          <div className="px-0 lg:px-24">
           <p
             className="text-[19px] md:text-[42.26px] text-white text-end md:text-center leading-[1.2em] max-w-[1124px] mx-auto w-full"
             data-aos="zoom-in"
@@ -29,6 +30,7 @@ const Experience = () => {
             equipo de agentes especializados en reclutamiento
             <span className="text-yellow-100">.</span>
           </p>
+          </div>
 
           <div className="flex justify-center lg:justify-between flex-col gap-5 md:mb-5 lg:flex-row mt-10 md:mt-20">
             <div className="flex-1 justify-center" data-aos="zoom-in">

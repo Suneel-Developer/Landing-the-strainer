@@ -15,7 +15,7 @@ const Contact = () => {
       <img
         src={Corner}
         alt="corner"
-        className="absolute left-0 top-12 hidden md:block "
+        className="absolute left-0 top-12 hidden md:block"
       />
       <div className="w-[60%] mx-auto flex justify-between md:items-center gap-10 md:gap-3">
         <div className="flex justify-center flex-col gap-0" data-aos="zoom-in">

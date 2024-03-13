@@ -81,7 +81,7 @@ const Footer = () => {
           target="_blank"
           rel="noreferrer"
         >
-          <p>Designed with</p>
+          <p>Designed in</p>
           <img src={Canva} alt="Canva" loading="lazy" className="w-10" />
         </a>
       </div>

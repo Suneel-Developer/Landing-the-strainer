@@ -41,6 +41,7 @@ span {
   transition: opacity 0.2s;
 }
 
-.heroyellow-line{
-  font-size: max(calc(12px * var(--rfso, var(--bfso, 1))), calc(2.63871631em - var(--ffsd)));
+.text{
+  font-size: clamp(42px, 2vw, 100px);
 }
+

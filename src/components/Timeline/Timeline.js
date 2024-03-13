@@ -86,9 +86,9 @@ const Timeline = () => {
             src={TimeLineImg}
             alt="nlgfds"
             loading="lazy"
-            className="w-full my-8 md:my-5"
+            className="hidden md:block w-full my-8 md:my-5"
           />
-          <div className="w-full md:w-[780px] mx-auto justify-between ">
+          <div className="w-full md:w-[780px] mx-auto justify-between mt-7 md:mt-0">
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 justify-items-center">
               <div className="flex flex-col items-center gap-3">
                 <img
