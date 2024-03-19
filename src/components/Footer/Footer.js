@@ -75,15 +75,7 @@ const Footer = () => {
             )}
           </div>
         </div>
-        <a
-          href="https://www.canva.com"
-          className="group bg-light-bg text-white w-[160px] rounded-[50px] text-xs xs:text-[13px] flex items-center justify-center gap-2 py-2 px-3 font-semibold transition duration-300 ease-in-out"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <p>Designed in</p>
-          <img src={Canva} alt="Canva" loading="lazy" className="w-10" />
-        </a>
+       
       </div>
     </section>
   );

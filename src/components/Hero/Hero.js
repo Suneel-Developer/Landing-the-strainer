@@ -21,6 +21,15 @@ const Hero = () => {
   const [selectedSoy, setSelectedSoy] = useState("");
   const [isSoyOpen, setIsSoyOpen] = useState(false);
 
+  const [formSubmitted, setFormSubmitted] = useState(false);
+
+  const handleSubmit = (event) => {
+    event.preventDefault(); // Prevent the default form submission behavior
+    // Perform any form submission logic here
+    // For demonstration purposes, let's just set formSubmitted to true
+    setFormSubmitted(true);
+  };
+
   const countryCodeRef = useRef(null);
   const countryRef = useRef(null);
   const soyRef = useRef(null);
@@ -101,6 +110,7 @@ const Hero = () => {
     setSelectedSoy(item);
     setIsSoyOpen(false);
   };
+
   return (
     <section className="w-full max-w-7xl px-3 mx-auto py-10 md:py-14" id="hero">
       <div className="flex justify-center items-center lg:items-start lg:justify-between flex-col lg:flex-row gap-10 lg:gap-5">
@@ -127,11 +137,14 @@ const Hero = () => {
           data-aos="fade-up"
           data-aos-duration="300"
         >
-          <form className="flex flex-col gap-3">
-            <div className="bg-blue-100 rounded-lg text-base leading-[1.37085934em] text-center text-white px-10 py-3">
-              Formulario enviado, pronto nos pondremos en contacto contigo
-            </div>
-            <p className="text-[14px] md:text-[27px] mb-2 tracking-[-0.02em] leading-[0.97172961em] text-center">
+           <div>
+      {formSubmitted && (
+        <div className="bg-blue-100 rounded-lg mb-4 text-base leading-[1.37085934em] text-center text-white px-10 py-3">
+          Formulario enviado, pronto nos pondremos en contacto contigo
+        </div>
+      )}
+      <form className="flex flex-col gap-3" onSubmit={handleSubmit}>
+      <p className="text-[14px] md:text-[27px] mb-2 tracking-[-0.02em] leading-[0.97172961em] text-center">
               ¡Déjanos tus datos y nos contactaremos contigo para contarte más
               🤩!
             </p>
@@ -290,11 +303,17 @@ const Hero = () => {
                 )}
               </div>
             </div>
-            <button className="bg-yellow-100 hover:bg-yellow-500 transition duration-500 font-bold text-lg text-center h-12 tracking-[.2em] mt-3 w-full rounded-xl text-white uppercase">
-              Enviar
-            </button>
-          </form>
-
+        <button
+          type="submit"
+          className="bg-yellow-100 hover:bg-yellow-500 transition duration-500 font-bold text-lg text-center h-12 tracking-[.2em] mt-3 w-full rounded-xl text-white uppercase"
+        >
+          Enviar
+        </button>
+      </form>
+    </div>
+            
+          
+      
           <div className="bg-blue-100 rounded-xl text-base md:text-[25px] leading-[1.37085934em] text-center text-white px-10 md:px-20 py-3 md:py-5 mt-5 w-fit lg:w-full mx-auto">
             Conviértete en
             <strong className="text-yellow-100 font-normal mx-1">
